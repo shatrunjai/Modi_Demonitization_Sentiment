@@ -125,6 +125,7 @@ tweet=unlist(tweet)
 data$tweet=tweet
 
 #reading list of positive and negative words
+#Download link: http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar  
 positives= readLines("positivewords.txt")
 negatives = readLines("negativewords.txt")
 
